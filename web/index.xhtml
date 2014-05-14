@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </h:head>
+    <h:body>
+        <div id="container">
+            
+            <header>
+                <div id="title">
+                    <h1>Generador de vocabularios</h1>
+                </div>
+                <div id="connect">
+                    <h:outputLabel value="#{beanFunctions.resultConnect()}" id="result_conn"/> 
+                </div>
+            </header>
+            <section>
+                <div id="cont_table">
+                    <div>
+                        <h:outputText value="#{beanFunctions.queryClass()}" />
+                    </div>
+                </div>
+                <div>
+                    <!--<center><img src="img/working.png" width="200" /></center>-->
+                </div>
+            </section>
+            
+            
+        </div>
+        
+    </h:body>
+</html>
+
