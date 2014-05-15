@@ -26,7 +26,6 @@ public class test {
         Query query = QueryFactory.create(sparql);
         QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query, defaultGraph);
         
-//        PrintWriter pw = null;
         try {
             ResultSet results = qexec.execSelect();
 //            ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
