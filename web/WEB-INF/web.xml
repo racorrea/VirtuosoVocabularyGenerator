@@ -20,5 +20,7 @@
     </session-config>
     <welcome-file-list>
         <welcome-file>faces/index.xhtml</welcome-file>
+        <welcome-file>faces/class.xhtml</welcome-file>
+        <welcome-file>faces/properties.xhtml</welcome-file>
     </welcome-file-list>
 </web-app>
